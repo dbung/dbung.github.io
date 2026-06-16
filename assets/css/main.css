@@ -3328,17 +3328,18 @@ input, select, textarea {
 
 		}
 
+.tiles article > a h2 {
+  margin: 0 0 0.9em 0;
+  font-size: 0.9rem;
+}
+
 .tiles article > a .content {
-  margin-top: 1.1em;
+  margin-top: 0;
 }
 
 .tiles article > a .content p {
   margin: 0;
+  font-size: 1rem;
   line-height: 1.55;
   word-break: keep-all;
-  overflow-wrap: normal;
-}
-
-.tiles article > a .content p span {
-  display: block;
 }
