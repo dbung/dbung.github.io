@@ -3346,3 +3346,20 @@ input, select, textarea {
   word-break: keep-all;
   overflow-wrap: normal;
 }
+
+#footer.compact {
+  padding: 1.25em 0;
+  background-color: #f6f6f6;
+}
+
+#footer.compact > .inner {
+  max-width: none;
+  width: 100%;
+  padding: 0 2.5em;
+}
+
+#footer.compact > .inner .copyright {
+  margin: 0;
+  padding: 0;
+  line-height: 1.4;
+}
